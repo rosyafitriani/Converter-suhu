@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+public class App {
+
+   public static void main(String[] args) throws Exception {
+      Scanner inputan = new Scanner(System.in);
+      System.out.print("Masukan suhu dalam celcuis : ");
+      double celcius = (double)inputan.nextInt();
+      double fahrenheit = celcius * 9.0 / 5.0 + 32.0;
+      System.out.printf("Suhu dalam celcuis" + celcius);
+      System.out.printf("Suhu dalam fahrenheit " + fahrenheit);
+      inputan.close();
+   }
+}
